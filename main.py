@@ -10,6 +10,7 @@ app = FastAPI()
 
 origins = [
     "https://dictionary-ibrahim.netlify.app/",
+    "https://dictionary-ibrahim.netlify.app"
 ]
 
 app.add_middleware(
