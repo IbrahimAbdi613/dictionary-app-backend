@@ -9,8 +9,7 @@ load_dotenv()
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
-    "https://localhost:3000",
+    "https://dictionary-ibrahim.netlify.app/",
 ]
 
 app.add_middleware(
